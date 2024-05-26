@@ -1,0 +1,71 @@
+.tracks-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 0 10px 0;
+}
+
+.name-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.track-image {
+  width: 200px;
+}
+
+.name-genre-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 15px;
+}
+
+.track-name {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500px;
+  margin: 0 0 15px 0;
+}
+
+.track-genre {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500px;
+  margin: 0;
+}
+
+.duration-delete-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.track-duration {
+  color: #ffffff;
+  margin-right: 35px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+.track-delete-bin {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-icon {
+  width: 25px;
+  height: 25px;
+}
